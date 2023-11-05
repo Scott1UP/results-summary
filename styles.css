@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'HankenGrotesk', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4;
+    color:hsl(241, 100%, 89%)
+}
+
+.top {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 16px 48px 40px 48px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 32px 32px;
+    color: white;
+}
+
+.result {
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    padding: 20px 40px;
+    border-radius: 360px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 20px;
+}
